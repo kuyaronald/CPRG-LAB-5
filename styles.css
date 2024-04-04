@@ -1,0 +1,101 @@
+body {
+  background-color: #0f1822;
+}
+
+.mainheader {
+  text-align: center;
+  padding: 20px;
+  border-bottom: 4px rgba(0, 0, 0, 0.1);
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.dropdown-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+  color: white;
+}
+
+#agent-dropdown {
+  text-align: center;
+}
+
+#selection-tool {
+  margin-bottom: 20px;
+}
+
+#confirm-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.rounded-button {
+  background-color: #ff4654;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.rounded-button:hover {
+  background-color: #e63e4d;
+  cursor: pointer;
+}
+
+#agent-select {
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 0 auto; 
+}
+
+#agent-select option {
+  font-size: 16px;
+}
+
+
+#agent-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+
+.card {
+  flex-basis: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  max-width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  padding: 20px;
+  background-color: #ff4654;
+  color: white;
+}
+
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+
+@media (max-width: 768px) {
+
+  .card {
+    flex-basis: calc(100% - 20px);
+    max-width: 100%;
+  }
+}
+
